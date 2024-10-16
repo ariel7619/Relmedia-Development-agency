@@ -24,7 +24,7 @@ const services = [
     title: "Web Design + Development",
     description:
       "Take your business to the next level with our web design and development services",
-  },
+  } ,
   {
     icon: "/images/s_1.png",
     title: "Search Engine Optimization",
@@ -311,6 +311,7 @@ export default function Home() {
                 />
                 <h1 className="text-xl font-medium">{service.title}</h1>
                 <p className="text-gray-500">{service.description}</p>
+                <Link href="/">Home</Link>
               </div>
             ))}
           </div>
