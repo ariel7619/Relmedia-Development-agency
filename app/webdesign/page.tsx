@@ -1,7 +1,6 @@
 "use client";
 
 
-import Calendly from "./calendly";
 import ShowcaseNavbar from "@/components/showcase-navbar";
 import { PiCheckCircle } from "react-icons/pi";
 import { motion } from "framer-motion";
@@ -11,15 +10,13 @@ const checkItemVariants = {
   visible: { opacity: 1, x: 0 },
 };
 
-const Meeting = () => {
+const Webdesign = () => {
 
 
 
   return (
     <div className="
-    
     flex flex-col  w-full  
-
      overflow-clip inset-0 -z-10 
   bg-[#fafafa] bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]
     
@@ -71,11 +68,10 @@ const Meeting = () => {
         </div>
 
     <div className="md:w-1/2">
-      <Calendly />
       </div>
       </div>
     </div>
   );
 };
 
-export default Meeting;
+export default Webdesign;
