@@ -5,9 +5,9 @@ import Link from "next/link";
 const works = [
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Rubbish Brothers",
-    link: "https://www.rubbishbrothers.com",
+    imageUrl: "/images/ausab-project.webp",
+    title: "Arbetsutbildningar",
+    link: "https://www.ausab.se",
   },
   {
     background: "bg-gray-200",
