@@ -13,19 +13,19 @@ const works = [
     background: "bg-gray-200",
     imageUrl: "/images/ausab-courses.webp",
     title: "Ausab courses",
-    link: "https://www.ausab.se",
+    link: "https://ausab.se/kurskatalog/",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Canadian Security Solutions",
-    link: "https://www.canadiansecuritysolutions.com",
+    imageUrl: "/images/course-portal.webp",
+    title: "Arbetsutbildningar course portal",
+    link: "https://www.arbetsutbildningar.se",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Flight 9",
-    link: "https://www.flight9.art",
+    imageUrl: "/images/mylift-project.webp",
+    title: "Mylift",
+    link: "https://www.mylift.se",
   },
 
 
