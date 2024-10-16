@@ -11,9 +11,9 @@ const works = [
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Atlas Massage",
-    link: "https://www.atlasmassage.ca",
+    imageUrl: "/images/ausab-courses.webp",
+    title: "Ausab courses",
+    link: "https://www.ausab.se",
   },
   {
     background: "bg-gray-200",
