@@ -258,15 +258,16 @@ export default function Home() {
         All of our services are designed to help your business stand out 
         </p>
         <Grid />
-        </div>
         
+        </div>
+
       </Element>
 
       <section className="py-20">
         <ScrollBasedVelocityDemo />
       </section>
 
-      <Element name="process">
+      <Element name="process" id="process">
         <main className="md:px-0 mx-6 md:mx-auto">
         <h1 className="text-3xl md:text-5xl md:text-center font-medium flex items-center gap-x-2 mx-auto justify-center">
         Our{" "}

@@ -1,5 +1,7 @@
 
 import { cn } from "@/lib/utils";
+import { Url } from "next/dist/shared/lib/router/router";
+import Link from "next/link";
 
 export const BentoGrid = ({
   className,
@@ -33,8 +35,6 @@ export const BentoGridItem = ({
   className?: string;
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
-  header?: React.ReactNode;
-  icon?: React.ReactNode;
   id?: number;
   img?: string;
   imgClassName?: string;
@@ -47,7 +47,7 @@ export const BentoGridItem = ({
         "flex flex-col justify-between h-full space-y-4 text-center rounded-md bg-gray-100 p-4 cursor-pointer hover:scale-105 hover:shadow-xl transition duration-200 shadow-input dark:shadow-none"
       )}
 >
-<div className="flex justify-center">
+      <div className="flex justify-center">
         
         <div className="space-y-4">
           {img && (
@@ -60,14 +60,7 @@ export const BentoGridItem = ({
           <h1 className="text-xl font-medium">{title}</h1>
           <p className="text-gray-500">{description}</p>
         </div>
+      </div>
     </div>
-
-  </div>
-
-
-
-      
-
-    
   );
 };

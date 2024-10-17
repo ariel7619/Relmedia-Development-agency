@@ -1,35 +1,8 @@
 import BlurFade from "@/components/magicui/blur-fade";
 import Image from "next/image";
 import Link from "next/link";
+import { works } from '@/data'
 
-const works = [
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/ausab-project.webp",
-    title: "Arbetsutbildningar",
-    link: "https://www.ausab.se",
-  },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/ausab-courses.webp",
-    title: "Ausab courses",
-    link: "https://ausab.se/kurskatalog/",
-  },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/course-portal.webp",
-    title: "Arbetsutbildningar course portal",
-    link: "https://www.arbetsutbildningar.se",
-  },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/mylift-project.webp",
-    title: "Mylift",
-    link: "https://www.mylift.se",
-  },
-
-
-];
 
 export function BlurFadeDemo() {
   return (

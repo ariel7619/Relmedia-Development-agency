@@ -8,6 +8,7 @@ export const gridItems = [
     titleClassName: "text-xl font-medium text-center",
     img: "/images/s_6.png",
     spareImg: "",
+    link: "/webdesign",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const gridItems = [
     titleClassName: "text-xl font-medium text-center",
     img: "/images/s_1.png",
     spareImg: "",
+    link: "/webdesign",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const gridItems = [
     titleClassName: "text-xl font-medium text-center",
     img: "/images/s_5.png",
     spareImg: "",
+    link: "/webdesign",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const gridItems = [
     titleClassName: "text-xl font-medium text-center",
     img: "/images/s_3.png",
     spareImg: "",
+    link: "/webdesign",
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ export const gridItems = [
     titleClassName: "text-xl font-medium text-center",
     img: "/images/s_4.png",
     spareImg: "",
+    link: "/webdesign",
   },
   {
     id: 6,
@@ -58,6 +63,37 @@ export const gridItems = [
     titleClassName: "text-xl font-medium text-center",
     img: "/images/s_2.png",
     spareImg: "",
+    link: "/webdesign",
   },
   
 ]
+
+
+export const works = [
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/ausab-project.webp",
+    title: "Arbetsutbildningar",
+    link: "https://www.ausab.se",
+  },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/ausab-courses.webp",
+    title: "Ausab courses",
+    link: "https://ausab.se/kurskatalog/",
+  },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/course-portal.webp",
+    title: "Arbetsutbildningar course portal",
+    link: "https://www.arbetsutbildningar.se",
+  },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/mylift-project.webp",
+    title: "Mylift",
+    link: "https://www.mylift.se",
+  },
+
+
+];

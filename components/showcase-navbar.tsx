@@ -27,7 +27,7 @@ const ShowcaseNavbar = () => {
       <Link href="/">
       <Image
         src="/logo/relmedia-logo.webp"
-        alt="Bird Logo"
+        alt="RelMedia Logo"
         width={1000}
         height={1000}
         className="w-28"
