@@ -16,6 +16,8 @@ import { Link as ScrollLink, Element } from "react-scroll";
 import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
+import Grid from "@/components/Grid";
+
 
 
 const services = [
@@ -23,7 +25,6 @@ const services = [
     icon: "/images/s_6.png",
     title: "Web Design + Development",
     description: "Take your business to the next level with our web design and development services",
-    link: "/webdesign",
   } ,
   {
     icon: "/images/s_1.png",
@@ -291,7 +292,11 @@ export default function Home() {
         All of our services are designed to help your business stand out 
         </p>
 
+        <Grid />
+
+            
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
+        
             {services.map((service) => (
               <div
                 key={service.title}
