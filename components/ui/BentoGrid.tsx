@@ -1,3 +1,4 @@
+
 import { cn } from "@/lib/utils";
 
 export const BentoGrid = ({
@@ -10,7 +11,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-10 mt-10 max-w-8xl",
+        "grid grid-cols-1 md:grid-cols-3 gap-10 mt-10",
         className
       )}
     >
@@ -43,28 +44,29 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "flex flex-col justify-between w-full relative h-full space-y-4 text-center rounded-md group/bento hover:scale-105 hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-gray-100 border border-transparent"
+        "flex flex-col justify-between h-full space-y-4 text-center rounded-md bg-gray-100 p-4 cursor-pointer hover:scale-105 hover:shadow-xl transition duration-200 shadow-input dark:shadow-none"
       )}
 >
-      <div className="flex justify-center">
-        {img && (
-          <img
-          src={img}
-          alt={img}
-          className={cn(imgClassName, 'w-full h-40 object-contain')}
-          />
-        )}
+<div className="flex justify-center">
+        
+        <div className="space-y-4">
+          {img && (
+        <img
+        src={img}
+        alt={img}
+        className={cn(imgClassName, 'object-contain p-4 w-full h-40')}
+        />
+      )}
+          <h1 className="text-xl font-medium">{title}</h1>
+          <p className="text-gray-500">{description}</p>
         </div>
-
-      <div className="group-hover/bento:translate-x-2 transition duration-200">
-        <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
-          {title}
-        </div>
-        <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300">
-          {description}
-        </div>
-      </div>
     </div>
+
+  </div>
+
+
+
+      
 
     
   );
