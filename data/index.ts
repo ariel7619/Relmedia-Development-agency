@@ -7,6 +7,7 @@ export const gridItems = [
     imgClassName: "",
     titleClassName: "text-xl font-medium text-center",
     img: "/images/s_6.png",
+    spareImg: "",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const gridItems = [
     imgClassName: "",
     titleClassName: "text-xl font-medium text-center",
     img: "/images/s_1.png",
+    spareImg: "",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const gridItems = [
     imgClassName: "",
     titleClassName: "text-xl font-medium text-center",
     img: "/images/s_5.png",
+    spareImg: "",
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const gridItems = [
     imgClassName: "",
     titleClassName: "text-xl font-medium text-center",
     img: "/images/s_3.png",
+    spareImg: "",
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const gridItems = [
     imgClassName: "",
     titleClassName: "text-xl font-medium text-center",
     img: "/images/s_4.png",
+    spareImg: "",
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ export const gridItems = [
     imgClassName: "",
     titleClassName: "text-xl font-medium text-center",
     img: "/images/s_2.png",
+    spareImg: "",
   },
   
 ]
