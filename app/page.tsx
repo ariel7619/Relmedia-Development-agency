@@ -16,7 +16,7 @@ import { Link as ScrollLink, Element } from "react-scroll";
 import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
-import Grid from "@/components/Grid";
+import { services } from "@/data";
 
 
 export default function Home() {
@@ -109,8 +109,7 @@ export default function Home() {
             className="md:text-center
            text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500"
           >
-            Schedule a call with us to discuss your project and get a quote in
-            minutes
+            Creating unique digital customer experiences with sustainable solutions
           </p>
 
           <div
@@ -257,10 +256,26 @@ export default function Home() {
         <p className="md:text-center py-4 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500">
         All of our services are designed to help your business stand out 
         </p>
-        <Grid />
-        
-        </div>
 
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
+            {services.map((service) => (
+              <Link href={service.href}
+                key={service.title}
+                className="flex flex-col justify-between h-full space-y-4 text-center bg-gray-100 p-4 cursor-pointer hover:scale-105 transition-transform rounded-md"
+              >
+                <Image
+                  src={service.icon}
+                  width={10000}
+                  height={10000}
+                  className="object-contain bg-gray-100 p-4 w-full h-40 rounded-md"
+                  alt="image"
+                />
+                <h1 className="text-xl font-medium">{service.title}</h1>
+                <p className="text-gray-500">{service.description}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
       </Element>
 
       <section className="py-20">

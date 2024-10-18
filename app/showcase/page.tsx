@@ -17,7 +17,7 @@ const Showcase = () => {
       <section className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto">
         <div className="flex items-center justify-center relative">
           <WordFadeIn
-            className="text-3xl pt-20 lg:text-5xl font-semibold max-w-3xl mx-auto md:text-center   z-20  "
+            className="text-3xl pt-20 lg:text-5xl font-semibold max-w-3xl mx-auto md:text-center z-20  "
             words="Design & Code That Helps Your Business Grow"
           />
         </div>

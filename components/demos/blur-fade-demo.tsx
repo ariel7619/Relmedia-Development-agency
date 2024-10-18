@@ -8,7 +8,7 @@ export function BlurFadeDemo() {
   return (
     <section id="photos">
       <div className="grid md:grid-cols-2 gap-8 mt-10 justify-items-center">
-        {works.map(({ imageUrl, title, link }, idx) => (
+        {works.map(({ imageUrl, title, link, description }, idx) => (
           <BlurFade
             key={title}
             delay={0.25 + idx * 0.05}
@@ -27,7 +27,8 @@ export function BlurFadeDemo() {
                 src={imageUrl}
                 alt={`Random stock image ${idx + 1}`}
               />
-              <h3 className="text-lg font-semibold p-4">{title}</h3>
+              <h3 className="font-bold lg:text-xl md:text-xl text-base line-clamp-1 mt-3">{title}</h3>
+              <p className="lg:text-base lg:font-normal font-light text-sm line-clamp-2">{description}</p>
             </Link>
           </BlurFade>
         ))}
