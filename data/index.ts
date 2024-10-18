@@ -54,7 +54,7 @@ export const works = [
     background: "bg-gray-200",
     imageUrl: "/images/ausab-project.webp",
     title: "Arbetsutbildningar",
-    description: "Wordpress website & Woocommerce store",
+    description: "Wordpress multisite + Course portal + Woocommerce",
     link: "https://www.ausab.se",
   },
   {
