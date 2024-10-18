@@ -51,28 +51,24 @@ export const services = [
 
 export const works = [
   {
-    background: "bg-gray-200",
     imageUrl: "/images/ausab-project.webp",
     title: "Arbetsutbildningar",
     description: "Wordpress multisite + Course portal + Woocommerce",
     link: "https://www.ausab.se",
   },
   {
-    background: "bg-gray-200",
     imageUrl: "/images/ausab-courses.webp",
     title: "Ausab courses",
     description: "Information about the courseplatform for companies",
     link: "https://ausab.se/kurskatalog/",
   },
   {
-    background: "bg-gray-200",
     imageUrl: "/images/course-portal.webp",
     title: "Arbetsutbildningar course portal",
     description: "Wordpress multisite & Learndash + custom plugin for their needs",
     link: "https://www.arbetsutbildningar.se",
   },
   {
-    background: "bg-gray-200",
     imageUrl: "/images/mylift-project.webp",
     title: "Mylift",
     description: "Wordpress website with all their products for rent or to buy used ones",

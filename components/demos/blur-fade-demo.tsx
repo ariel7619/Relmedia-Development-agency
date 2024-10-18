@@ -13,7 +13,7 @@ export function BlurFadeDemo() {
             key={title}
             delay={0.25 + idx * 0.05}
             inView
-            className={`rounded-lg ${works[idx].background} p-4`}
+            className={`rounded-lg ${works[idx]} p-4`}
           >
             <Link href={link} target="_blank" rel="noreferrer">
               <Image
