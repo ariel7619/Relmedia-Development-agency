@@ -7,13 +7,13 @@ import { works } from '@/data'
 export function BlurFadeDemo() {
   return (
     <section id="photos">
-      <div className="grid md:grid-cols-2 gap-8 mt-10 justify-items-center">
+      <div className="grid md:grid-cols-2 gap-10 my-16">
         {works.map(({ imageUrl, title, link, description }, idx) => (
           <BlurFade
             key={title}
             delay={0.25 + idx * 0.05}
             inView
-            className={`rounded-lg ${works[idx]} p-4`}
+            className={`rounded-lg ${works[idx]} `}
           >
             <Link href={link} target="_blank" rel="noreferrer">
               <Image
