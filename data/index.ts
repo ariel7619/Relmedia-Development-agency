@@ -58,8 +58,8 @@ export const works = [
   },
   {
     imageUrl: "/images/ausab-courses.webp",
-    title: "Ausab courses",
-    description: "Information about the courseplatform for companies",
+    title: "Ausab calendar",
+    description: "Event calendar with multiple functions for better user experience",
     link: "https://ausab.se/kurskatalog/",
   },
   {
