@@ -7,7 +7,7 @@ import { works } from '@/data'
 export function BlurFadeDemo() {
   return (
     <section id="photos">
-      <div className="grid md:grid-cols-2 gap-10 my-16">
+      <div className="grid md:grid-cols-2 gap-10 my-16 hover:scale-90">
         {works.map(({ imageUrl, title, link, description }, idx) => (
           <BlurFade
             key={title}
@@ -19,8 +19,7 @@ export function BlurFadeDemo() {
               <Image
                 height={10000}
                 width={10000}
-                className="
-                h-5/6 w-full object-cover rounded-lg"
+                className="h-5/6 w-full object-cover rounded-lg"
         
               
        
