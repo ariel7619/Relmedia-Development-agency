@@ -26,7 +26,7 @@ const Webdesign = () => {
       <div className="md:px-0 px-6 xl:w-4/5 2xl:w-[68%] justify-between md:mt-14 md:flex mx-auto">
         <div className="md:w-5/5">
           <h1 className="text-4xl font-semibold pt-10   ">Digital Design (UI/UX)</h1>
-          <p className="text-lg text-gray-500 py-4">Relmedias world of digital design - where creativity meets technology and innovation becomes reality. Our mission is to help your business create a strong digital presence through design solutions that not only look great, but also work smoothly and efficiently. By combining in-depth understanding of user experience (UX), visual appeal and technical performance, we deliver designs that make a difference.
+          <p className="text-lg text-gray-500 py-4">Relmedia&apos;s world of digital design - where creativity meets technology and innovation becomes reality. Our mission is to help your business create a strong digital presence through design solutions that not only look great, but also work smoothly and efficiently. By combining in-depth understanding of user experience (UX), visual appeal and technical performance, we deliver designs that make a difference.
           </p>
 
           {[
