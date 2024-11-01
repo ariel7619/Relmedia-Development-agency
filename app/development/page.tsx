@@ -69,7 +69,7 @@ const Development = () => {
 
       <div className="md:px-0 px-6 xl:w-4/5 2xl:w-[68%] justify-between md:mt-14 md:flex mx-auto">
         <div className="md:w-5/5">
-          <h1 className="text-4xl font-semibold pt-10">We'll help you with development, integrations and the technical side of things. rererer</h1>
+          <h1 className="text-4xl font-semibold pt-10">We'll help you with development, integrations and the technical side of things.</h1>
           <p className="text-lg text-gray-500 py-4">
           At Relmedia, we offer comprehensive digital solution development services. Our team of experienced developers and designers specialize in creating custom solutions that are optimized for conversion and impressive for your online presence. We work with various technologies and frameworks to ensure that your solution is tailored to your needs and goals.
           </p>
