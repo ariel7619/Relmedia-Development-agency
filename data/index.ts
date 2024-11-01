@@ -9,7 +9,7 @@ export const services = [
   {
     id: 2,
     title: "Development",
-    description: "Get your website to the top of search engine results with our SEO services",
+    description: "We'll help you with development, integrations and the technical side of things.",
     icon: "/images/s_1.png",
     href: "/development",
   },
