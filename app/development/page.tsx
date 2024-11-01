@@ -24,7 +24,7 @@ const Development = () => {
       <div className="md:px-0 px-6 xl:w-4/5 2xl:w-[68%] justify-between md:mt-14 md:flex mx-auto">
         <div className="md:w-5/5">
           <h1 className="text-4xl font-semibold pt-10">Development</h1>
-          <p className="text-lg text-gray-500 py-4">
+          <p className="text-lg text-gray-600 py-4">
           Our team offers comprehensive development services to our clients. 
           We have creative and experienced technical professionals who build customized 
           and advanced websites with unique features. With our expertise, you can be sure 
