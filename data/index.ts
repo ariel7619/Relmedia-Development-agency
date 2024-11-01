@@ -1,17 +1,17 @@
 export const services = [
   {
     id: 1,
-    title: "Web Design & Development",
+    title: "Digital Design (UI/UX)",
     description: "Take your business to the next level with our web design and development services",
       icon: "/images/s_6.png",
     href: "/webdesign",
   },
   {
     id: 2,
-    title: "Search Engine Optimization",
+    title: "Development",
     description: "Get your website to the top of search engine results with our SEO services",
     icon: "/images/s_1.png",
-    href: "/seo",
+    href: "/development",
   },
   {
     id: 3,
@@ -63,15 +63,15 @@ export const works = [
     link: "https://ausab.se/kurskatalog/",
   },
   {
-    imageUrl: "/images/course-portal.webp",
-    title: "Arbetsutbildningar course portal",
-    description: "Wordpress multisite & Learndash + custom plugin for their needs",
-    link: "https://www.arbetsutbildningar.se",
+    imageUrl: "/images/hagehjelpen.webp",
+    title: "Hagehjelpen",
+    description: "A wordpress site with Robot Lawn Mower services. Implemented booking calendar with payment solution.",
+    link: "https://www.hagehjelpen.no",
   },
   {
     imageUrl: "/images/mylift-project.webp",
     title: "Mylift",
-    description: "Wordpress website with all their products for rent or to buy used ones",
+    description: "Wordpress website with Mylift's all equipment for rent or to buy used or new ones.",
     link: "https://www.mylift.se",
   },
 
