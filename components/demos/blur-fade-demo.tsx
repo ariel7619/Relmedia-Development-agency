@@ -19,8 +19,7 @@ export function BlurFadeDemo() {
               <Image
                 height={10000}
                 width={10000}
-                className="
-                h-5/6 w-full object-cover rounded-lg"
+                className="h-5/6 w-full object-cover rounded-lg hover:scale-105 transition-transform"
         
               
        
