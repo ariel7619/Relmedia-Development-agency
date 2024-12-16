@@ -381,7 +381,7 @@ export default function Home() {
             />{" "}
           </h1>
           <p className="text-left  text-xl  text-gray-500">(+47)-9292-6666</p>
-          <a href:mailto="info@relmedia.no" className="text-left  text-xl  text-gray-500">
+          <a href="mailto:info@relmedia.no" className="text-left  text-xl  text-gray-500">
             info@relmedia.no
           </a>
         </div>
